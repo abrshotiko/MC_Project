@@ -20,7 +20,6 @@ st.sidebar.markdown("""
         <h3 style="margin-bottom: 15px; font-family: 'Helvetica', sans-serif; color: white;">
             Monte Carlo Model  🚀
         </h3>
-        <p style="color: #1adb04; font-family: 'Helvetica', sans-serif;">Created by:</p>
         <div style="display: flex; align-items: center;">
             <a href="https://www.linkedin.com/in/shotikoab/" target="_blank" style="display: flex; align-items: center; text-decoration: none;">
                 <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20" height="20" style="margin-right: 10px;">
