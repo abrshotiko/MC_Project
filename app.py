@@ -49,10 +49,10 @@ strike_price = st.sidebar.number_input("Enter the strike price:", min_value=0.0,
 
 # Button to trigger simulation
 run_simulation = st.sidebar.button("Run Simulation")
-# Sidebar disclaimer
-st.sidebar.markdown("""
-*Disclaimer: The 10-Year T-Bill is used as the risk-free rate for this simulation.
-""")
+# # Sidebar disclaimer
+# st.sidebar.markdown("""
+# *Disclaimer: The 10-Year T-Bill is used as the risk-free rate for this simulation.
+# """)
 
 # Main Output Area
 if run_simulation:
