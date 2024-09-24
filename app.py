@@ -223,6 +223,7 @@ if run_simulation:
                     <h2 style="margin: 0;">${put_option_price:.2f}</h2>
                 </div>
             """, unsafe_allow_html=True)
+            st.text('Disclamer 10 Year T-bill used for risk free rate for the corresponding timeframe')
 
     else:
         st.error("No data found for the given dates. Please check the dates and ticker.")
