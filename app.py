@@ -38,7 +38,7 @@ end_date = st.sidebar.date_input("Select end date for Stock Price Data:")
 
 # Recommendation: Ensure that the date range is more than 1 year
 if (end_date - start_date).days < 365:
-    st.sidebar.warning("It's recommended to pick a date range of more than 2 years for better analysis.")
+    st.sidebar.warning("It's recommended to pick a more than 2 years for robustness")
 
 # Monte Carlo parameters in Sidebar
 num_simulations = st.sidebar.number_input("Number of simulations (minimum 10,000):", min_value=10000, max_value=100000, value=10000)
